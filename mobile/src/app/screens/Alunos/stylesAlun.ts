@@ -1,0 +1,331 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const { width } = Dimensions.get('window');
+
+export const stylesAlun = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    backgroundColor: '#f0f7f4',
+  },
+
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 18,
+    paddingVertical: 14,
+    backgroundColor: '#fff',
+    borderBottomWidth: 1,
+    borderBottomColor: '#e8f5ee',
+  },
+  headerBtn: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    backgroundColor: '#e1f5ee',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  headerTitle: {
+    fontSize: 17,
+    fontWeight: '700',
+    color: '#0F2D1F',
+    letterSpacing: -0.3,
+  },
+
+  searchWrap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    marginHorizontal: 16,
+    marginTop: 14,
+    marginBottom: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#C0DCC8',
+  },
+  searchInput: {
+    flex: 1,
+    fontSize: 14,
+    color: '#0F2D1F',
+    paddingVertical: 0,
+  },
+
+  filtrosWrap: {
+    paddingHorizontal: 16,
+    paddingBottom: 10,
+    gap: 8,
+    flexDirection: 'row',
+  },
+  filtroPill: {
+    paddingHorizontal: 16,
+    paddingVertical: 7,
+    borderRadius: 20,
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#C0DCC8',
+  },
+  filtroPillAtivo: {
+    backgroundColor: '#1D9E75',
+    borderColor: '#1D9E75',
+  },
+  filtroPillText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: '#5A7D6C',
+  },
+  filtroPillTextAtivo: {
+    color: '#fff',
+  },
+
+  contador: {
+    fontSize: 12,
+    color: '#5A7D6C',
+    paddingHorizontal: 18,
+    marginBottom: 8,
+    fontWeight: '500',
+  },
+
+  listPadding: {
+    paddingHorizontal: 16,
+    paddingBottom: 24,
+    gap: 10,
+  },
+
+  card: {
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    padding: 14,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderWidth: 1,
+    borderColor: '#e8f5ee',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 3,
+  },
+  cardLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    flex: 1,
+  },
+  avatar: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    backgroundColor: '#e1f5ee',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexShrink: 0,
+  },
+  avatarText: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#0F6E56',
+  },
+  cardNome: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#0F2D1F',
+    flex: 1,
+  },
+  cardSub: {
+    fontSize: 11,
+    color: '#5A7D6C',
+    marginTop: 1,
+  },
+  cardMatricula: {
+    fontSize: 10,
+    color: '#9FE1CB',
+    marginTop: 2,
+    fontWeight: '600',
+  },
+  cardRight: {
+    alignItems: 'flex-end',
+    gap: 8,
+    flexShrink: 0,
+  },
+  badgeSit: {
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+    borderRadius: 20,
+  },
+  badgeSitText: {
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  acoes: {
+    flexDirection: 'row',
+    gap: 6,
+  },
+  btnAcao: {
+    width: 30,
+    height: 30,
+    borderRadius: 8,
+    backgroundColor: '#e6f0fb',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  emptyWrap: {
+    alignItems: 'center',
+    paddingTop: 60,
+    gap: 12,
+  },
+  emptyText: {
+    fontSize: 14,
+    color: '#5A7D6C',
+    fontWeight: '500',
+  },
+
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(15, 45, 31, 0.5)',
+    justifyContent: 'flex-end',
+  },
+  modalBox: {
+    backgroundColor: '#fff',
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    padding: 22,
+    maxHeight: '88%',
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    marginBottom: 16,
+  },
+  modalAvatar: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    backgroundColor: '#e1f5ee',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalAvatarText: {
+    fontSize: 17,
+    fontWeight: '700',
+    color: '#0F6E56',
+  },
+  modalNome: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#0F2D1F',
+  },
+  modalCursoSub: {
+    fontSize: 12,
+    color: '#5A7D6C',
+    marginTop: 2,
+  },
+  btnFechar: {
+    width: 32,
+    height: 32,
+    borderRadius: 10,
+    backgroundColor: '#f0f7f4',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalGrade: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+    marginBottom: 16,
+  },
+  modalCampo: {
+    backgroundColor: '#f0f7f4',
+    borderRadius: 10,
+    padding: 10,
+    minWidth: (width - 44 - 10) / 2,
+    flex: 1,
+  },
+  modalLabel: {
+    fontSize: 10,
+    color: '#5A7D6C',
+    fontWeight: '600',
+    textTransform: 'uppercase',
+    letterSpacing: 0.4,
+    marginBottom: 3,
+  },
+  modalValor: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#0F2D1F',
+  },
+  perguntaBox: {
+    backgroundColor: '#f0f7f4',
+    borderRadius: 14,
+    padding: 14,
+    marginBottom: 14,
+  },
+  perguntaTitulo: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: '#0F2D1F',
+    marginBottom: 12,
+  },
+  perguntaItem: {
+    marginBottom: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#C0DCC8',
+    paddingBottom: 10,
+  },
+  perguntaLabel: {
+    fontSize: 11,
+    color: '#5A7D6C',
+    fontWeight: '500',
+    marginBottom: 3,
+  },
+  perguntaValor: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: '#0F2D1F',
+  },
+  motivoBox: {
+    backgroundColor: '#fde8e8',
+    borderRadius: 12,
+    padding: 12,
+    marginBottom: 16,
+  },
+  motivoLabel: {
+    fontSize: 11,
+    color: '#A32D2D',
+    fontWeight: '700',
+    textTransform: 'uppercase',
+    letterSpacing: 0.4,
+    marginBottom: 4,
+  },
+  motivoValor: {
+    fontSize: 13,
+    color: '#791F1F',
+    fontWeight: '500',
+  },
+  modalAcoes: {
+    flexDirection: 'row',
+    gap: 10,
+    marginBottom: 8,
+  },
+  btnModalEditar: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: '#1D9E75',
+    borderRadius: 14,
+    paddingVertical: 13,
+  },
+  btnModalEditarText: {
+    color: '#fff',
+    fontWeight: '700',
+    fontSize: 14,
+  },
+});
