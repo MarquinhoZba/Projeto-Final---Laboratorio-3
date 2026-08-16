@@ -58,7 +58,7 @@ permitindo o acesso ao sistema por meio de e-mail e senha.
 
 ### 2 - Tela do painel
 
-![Tela do Painel](imagens/tela_2.png)
+![Tela do Painel](imagens/tela_8.png)
 
 **Figura 2 -** Painel principal do SistemaPEE, apresentando um resumo
 das informações do sistema, como quantidade de alunos, alunos em risco,
@@ -66,7 +66,7 @@ modelos preditivos ativos e previsões realizadas.
 
 ### 3 - Submenu
 
-![Submenu](imagens/tela_3.png)
+![Submenu](imagens/tela_6.png)
 
 **Figura 3 -** Submenu de navegação do aplicativo, disponibilizando
 acesso às principais funcionalidades, como lista de alunos, realização
@@ -75,7 +75,7 @@ acesso.
 
 ### 4 - Tela Lista dos Alunos
 
-![Lista dos Alunos](imagens/tela_4.png)
+![Lista dos Alunos](imagens/tela_5.png)
 
 **Figura 4 -** Tela de gerenciamento dos alunos cadastrados, permitindo
 consultar os estudantes, visualizar suas informações e acessar opções de
@@ -83,7 +83,7 @@ edição e exclusão dos registros.
 
 ### 5 - Tela Predição
 
-![Tela de Predição](imagens/tela_5.png)
+![Tela de Predição](imagens/tela_9.png)
 
 **Figura 5 -** Tela de análise preditiva de evasão escolar, permitindo
 selecionar o aluno e o modelo preditivo para realizar a análise e
@@ -91,7 +91,7 @@ apresentar a probabilidade e o nível de risco de evasão.
 
 ### 6 - Tela Desempenho
 
-![Tela de Desempenho](imagens/tela_6.png)
+![Tela de Desempenho](imagens/tela_7.png)
 
 **Figura 6 -** Tela de registro e acompanhamento do desempenho acadêmico
 dos alunos, apresentando informações como média, frequência e quantidade
@@ -99,7 +99,7 @@ de reprovações, auxiliando na avaliação do desempenho escolar.
 
 ### 7 - Tela Relatórios
 
-![Tela de Relatórios](imagens/tela_7.png)
+![Tela de Relatórios](imagens/tela_4.png)
 
 **Figura 7 -** Tela de relatórios do sistema, permitindo consultar
 informações dos alunos e seus indicadores acadêmicos e de risco, além de
@@ -107,7 +107,7 @@ possibilitar a exportação dos dados em formatos PDF e Excel.
 
 ### 8 - Tela Modelos
 
-![Tela de Modelos](imagens/tela_8.png)
+![Tela de Modelos](imagens/tela_10.png)
 
 **Figura 8 -** Tela de gerenciamento dos modelos preditivos utilizados
 pelo sistema, apresentando os algoritmos disponíveis, suas respectivas
@@ -115,7 +115,7 @@ acurácias e informações de treinamento.
 
 ### 9 - Tela Logs
 
-![Tela de Logs](imagens/tela_9.png)
+![Tela de Logs](imagens/tela_3.png)
 
 **Figura 9 -** Tela de logs de acesso, responsável por registrar e
 apresentar o histórico das atividades realizadas pelos usuários no
